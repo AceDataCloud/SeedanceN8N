@@ -1,6 +1,6 @@
 {
   "name": "@acedatacloud/n8n-nodes-seedance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n community node for Seedance video generation through AceDataCloud.",
   "license": "MIT",
   "homepage": "https://github.com/AceDataCloud/SeedanceN8N",

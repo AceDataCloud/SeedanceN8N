@@ -9,7 +9,7 @@ export class AceDataSeedanceApi implements ICredentialType {
 	name = 'aceDataSeedanceApi';
 	displayName = 'Seedance by AceDataCloud API';
 	documentationUrl = 'https://github.com/AceDataCloud/SeedanceN8N#credentials';
-	icon = 'file:../nodes/Seedance/acedatacloud.svg' as const;
+	icon = 'file:../nodes/Seedance/icon.png' as const;
 	properties: INodeProperties[] = [
 		{
 			displayName: 'API Token',
