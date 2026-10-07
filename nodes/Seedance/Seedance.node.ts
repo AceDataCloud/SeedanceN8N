@@ -21,7 +21,7 @@ export class Seedance implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Seedance by AceDataCloud',
 		name: 'seedance',
-		icon: { light: 'file:acedatacloud.svg', dark: 'file:acedatacloud.dark.svg' },
+		icon: { light: 'file:icon.png', dark: 'file:icon.dark.png' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
