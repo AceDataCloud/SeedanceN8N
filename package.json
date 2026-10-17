@@ -1,13 +1,17 @@
 {
   "name": "@acedatacloud/n8n-nodes-seedance",
   "version": "0.1.2",
-  "description": "n8n community node for Seedance video generation through AceDataCloud.",
+  "description": "Create Seedance videos from text or frames and retrieve the same task through Ace Data Cloud.",
   "license": "MIT",
   "homepage": "https://github.com/AceDataCloud/SeedanceN8N",
   "keywords": [
     "n8n-community-node-package",
     "acedatacloud",
-    "seedance"
+    "seedance",
+    "video",
+    "video-generation",
+    "acedata",
+    "ace-data-cloud"
   ],
   "author": {
     "name": "Ace Data Cloud",
