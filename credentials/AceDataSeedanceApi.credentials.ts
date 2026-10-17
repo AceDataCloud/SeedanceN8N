@@ -7,7 +7,7 @@ import type {
 
 export class AceDataSeedanceApi implements ICredentialType {
 	name = 'aceDataSeedanceApi';
-	displayName = 'Seedance by AceDataCloud API';
+	displayName = 'Seedance by Ace Data Cloud API';
 	documentationUrl = 'https://github.com/AceDataCloud/SeedanceN8N#credentials';
 	icon = 'file:../nodes/Seedance/icon.png' as const;
 	properties: INodeProperties[] = [
@@ -19,6 +19,13 @@ export class AceDataSeedanceApi implements ICredentialType {
 			default: '',
 			required: true,
 			description: 'The API token for your Seedance service on AceDataCloud',
+		},
+		{
+			displayName:
+				'Create or copy an application API key in <a href="https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedancen8n_credential_api_key" target="_blank">Ace Data Cloud Applications</a>. Paste only the token into API Token; do not add Bearer.',
+			name: 'keySetup',
+			type: 'notice',
+			default: '',
 		},
 	];
 	authenticate: IAuthenticateGeneric = {
