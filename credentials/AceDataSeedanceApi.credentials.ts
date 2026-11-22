@@ -22,7 +22,7 @@ export class AceDataSeedanceApi implements ICredentialType {
 		},
 		{
 			displayName:
-				'Create or copy an application API key in <a href="https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedancen8n_credential_api_key" target="_blank">Ace Data Cloud Applications</a>. Paste only the token into API Token; do not add Bearer.',
+				'Create or copy an application API key in <a href="https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen" target="_blank">Ace Data Cloud Applications</a>. Paste only the token into API Token; do not add Bearer.',
 			name: 'keySetup',
 			type: 'notice',
 			default: '',
