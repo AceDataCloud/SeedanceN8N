@@ -19,7 +19,7 @@ import { properties } from './properties';
 
 export class Seedance implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Seedance by Ace Data Cloud',
+		displayName: 'Seedance',
 		name: 'seedance',
 		icon: { light: 'file:icon.png', dark: 'file:icon.dark.png' },
 		group: ['transform'],
@@ -27,7 +27,7 @@ export class Seedance implements INodeType {
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description:
 			'Create Seedance videos from text or frames and retrieve the same task through Ace Data Cloud',
-		defaults: { name: 'Seedance by Ace Data Cloud' },
+		defaults: { name: 'Seedance' },
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
 		usableAsTool: true,
